@@ -4,7 +4,9 @@ import freshBurger from '../../assets/fresh-burger.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
-
+import NewsMonkey from '../../assets/NewsMonkey.png'
+import ems from '../../assets/ems.png'
+import TextUtil from '../../assets/TextUtil.png'
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
@@ -12,27 +14,27 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://nzmshrxz.github.io/netflix-clone/"
           h3="NetflixClone"
           p="Streaming App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          src={NewsMonkey}
+          link="https://github.com/nzmshrxz/NewsApp"
           h3="NewsMonkey"
           p="News App"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={ems}
+          link="https://github.com/nzmshrxz/Employee-Management-System"
+          h3="EMS"
+          p="Employee Management System"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={TextUtil}
+          link="https://github.com/nzmshrxz/TextUtility-software"
+          h3="TextUtils"
+          p="Text-Utility Software"
         />
       </div>
     </section>

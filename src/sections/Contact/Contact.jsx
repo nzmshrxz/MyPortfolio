@@ -39,6 +39,7 @@ function Contact() {
             placeholder="Message"
             required></textarea>
         </div>
+        <h3>nazamshiraz4@gmail.com</h3>
         <input className="hover btn" type="submit" value="Submit" />
       </form>
     </section>
