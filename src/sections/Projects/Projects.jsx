@@ -1,5 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
+import Askingmind from '../../assets/Askingmind.png'
 import freshBurger from '../../assets/fresh-burger.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
@@ -12,6 +13,12 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={Askingmind}
+          link="https://nzmshrxz.github.io/AskAI/"
+          h3="Asking Minds"
+          p="Ask Me Anything!"
+        />
         <ProjectCard
           src={viberr}
           link="https://nzmshrxz.github.io/netflix-clone/"
