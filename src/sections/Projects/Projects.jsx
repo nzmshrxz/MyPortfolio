@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
-import Askingmind from '../../assets/Askingmind.png'
+import Askingmind from '../../assets/Askingmind.jpg'
 import freshBurger from '../../assets/fresh-burger.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
